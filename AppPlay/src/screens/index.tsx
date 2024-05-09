@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, TextInput } from "react-native";
 import { styles } from './styles'
 import React, { useState } from 'react';
@@ -8,7 +7,9 @@ export function SingnIn() {
 
   return(
     <View style={styles.container}>
-      <TextInput style={styles.input} />
+      <TextInput style={styles.input} 
+      onChangeText={setText}
+      />
 
       <Text>
         Você digitou: {text}
