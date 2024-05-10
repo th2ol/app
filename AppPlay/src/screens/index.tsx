@@ -1,26 +1,28 @@
-import { View, Text, Image } from 'react-native';
+import { View, Text,TextInput, Image,StatusBar } from 'react-native';
 import { styles } from './styles'
 import React, { useState } from 'react';
 import IllustrationImg from '../assets/illustration.png';
-import { StatusBar } from 'expo-status-bar';
+
 
 export function SingnIn() {
-  const [text, setText] = useState ("Você não digitou nada ainda");
 
   return(
     <View style={styles.container}>
-     <StatusBar barStyle='light-content' backgroundColor={"transparent"} translucent />
-      <Image source={IllustrationImg} />
+
+          <StatusBar barStyle='light-content' backgroundColor={"transparent"} translucent />
+        
+        <Image source={IllustrationImg} style={styles.image} resizeMode='stretch' />
+    
     <View style= {styles.contant}>
-
       <Text style={styles.title}>
-        Organize Suas {`/n`}
-
-
+        Organize Suas {`\n`}
+        Jogatinas {`\n`}
+        facilmente {`\n`}
       </Text>
+
       <Text style={styles.subtitle}>
-
-
+        Crie grupos para jogar seus games {`\n`}
+        favoritos com seus amigos
       </Text>
 
     </View>
