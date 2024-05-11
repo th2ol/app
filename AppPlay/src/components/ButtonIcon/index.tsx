@@ -6,9 +6,9 @@ import {styles} from './styles'
 
 type Props = {title: string;}
 
-export function ButtonIcon ({ title,...rest } : Props){
+export function ButtonIcon ({ title } : Props){
     return(
-        <TouchableOpacity style={styles.container} >
+        <TouchableOpacity style={styles.container} activeOpacity={0.7}>
             <View style={styles.iconWrapper}>
                <Image source={DiscordIMG} style={styles.icon} />
            </View>

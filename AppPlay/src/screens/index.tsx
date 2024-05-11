@@ -24,7 +24,7 @@ export function SingnIn() {
         Crie grupos para jogar seus games {`\n`}
         favoritos com seus amigos
       </Text>
-      <ButtonIcon title="Entrar com Discord" activeOpacity={0.7} />
+      <ButtonIcon title="Entrar com Discord" activeOpacity={0.7}/>
     </View> 
     </View>
   );
