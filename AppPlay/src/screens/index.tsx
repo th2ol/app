@@ -1,7 +1,8 @@
-import { View, Text,TextInput, Image,StatusBar } from 'react-native';
-import { styles } from './styles'
-import React, { useState } from 'react';
+import React from "react";
+import { styles } from './styles';
+//import React, { useState } from 'react';
 import IllustrationImg from '../assets/illustration.png';
+import { View, Text, TextInput, Image, StatusBar, StyleSheet} from 'react-native';
 
 
 export function SingnIn() {
