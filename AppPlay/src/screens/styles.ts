@@ -1,13 +1,13 @@
-//import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 import { theme } from '../global/styles/theme';
 
 export const styles = StyleSheet.create({
     container: {
         flex:1,
-        backgroundColor: 'white',                                                                                                                                                                               
+        backgroundColor: theme.colors.backgorung,                                                                                                                                                                               
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundcolor: theme.colors.backgorung
+        //backgroundColor: theme.colors.backgorung
     },
     image:{
         width: '100%',

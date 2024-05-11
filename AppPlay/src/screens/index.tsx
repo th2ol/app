@@ -1,9 +1,8 @@
-import React from "react";
 import { styles } from './styles';
-//import React, { useState } from 'react';
+import React, { useState } from 'react';
 import IllustrationImg from '../assets/illustration.png';
-import { View, Text, TextInput, Image, StatusBar, StyleSheet} from 'react-native';
-
+import { View, Text, TextInput, Image, StatusBar} from 'react-native';
+import { ButtonIcon } from '../components/ButtonIcon';
 
 export function SingnIn() {
 
@@ -14,7 +13,7 @@ export function SingnIn() {
         
         <Image source={IllustrationImg} style={styles.image} resizeMode='stretch' />
     
-    <View style= {styles.contant}>
+    <View style= {styles.content}>
       <Text style={styles.title}>
         Organize Suas {`\n`}
         Jogatinas {`\n`}
@@ -25,8 +24,8 @@ export function SingnIn() {
         Crie grupos para jogar seus games {`\n`}
         favoritos com seus amigos
       </Text>
-
-    </View>
+      <ButtonIcon title="Entrar com Discord" activeOpacity={0.7} />
+    </View> 
     </View>
   );
 }
