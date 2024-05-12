@@ -7,8 +7,8 @@ export const theme = {
     },
 
 fonts:{
-    title700:'rajdhani_700old',
-    title500:'rajdhani_500Medium',
+    title700:'Rajdhani_700old',
+    title500:'Rajdhani_500Medium',
     text400:'Inter_400Regular',
     text500:'Inter_500Medium',
 }
