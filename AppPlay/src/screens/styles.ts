@@ -20,12 +20,15 @@ export const styles = StyleSheet.create({
         color:theme.colors.header,
         fontSize:40,
         marginBottom:16,
-        textAlign:'center'
+        textAlign:'center',
+        fontFamily: theme.fonts.title700,
+        lineHeight:40
     },
     subtitle:{
         color:theme.colors.header,
         fontSize:15,
         textAlign:'center',
-        marginBottom:64
+        marginBottom:64,
+        lineHeight:25
     }
 });
