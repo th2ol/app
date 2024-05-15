@@ -22,14 +22,6 @@ if (!fontsLoaded) {
 }
 
   return(
-    <>
-    <StatusBar barStyle='light-content' backgroundColor={"transparent"} translucent />
-    <SingnIn />
-    </>
-
-    
-  );
-  return(
     <Background>
       <StatusBar
         barStyle="light-content"
