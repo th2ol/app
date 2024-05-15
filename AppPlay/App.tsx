@@ -6,6 +6,7 @@ import { Rajdhani_500Medium, Rajdhani_700Bold } from '@expo-google-fonts/rajdhan
 import AppLoading from 'expo-app-loading';
 import { SingnIn } from './src/screens/index';
 import { StatusBar } from 'react-native';
+import { Background } from './src/components/Background';
 
 export default function App() {
 
@@ -27,5 +28,15 @@ if (!fontsLoaded) {
     </>
 
     
+  );
+  return(
+    <Background>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <SingnIn />
+    </Background>
   );
 }
