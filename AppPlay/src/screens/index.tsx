@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import IllustrationImg from '../assets/illustration.png';
 import { View, Text, TextInput, Image, StatusBar} from 'react-native';
 import { ButtonIcon } from '../components/ButtonIcon';
+import { theme } from '../global/styles/theme';
 
 export function SingnIn() {
 

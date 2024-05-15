@@ -4,7 +4,7 @@ import { Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
 import { Rajdhani_500Medium, Rajdhani_700Bold } from '@expo-google-fonts/rajdhani';
 
 import AppLoading from 'expo-app-loading';
-import { SingnIn } from './src/screens/index';
+import { Background, SingnIn } from './src/screens/index';
 import { StatusBar } from 'react-native';
 
 export default function App() {
@@ -28,4 +28,15 @@ if (!fontsLoaded) {
 
     
   );
+  return (
+    <Background>
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <SingnIn />
+
+    </Background>
+  )
 }
