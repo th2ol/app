@@ -1,1 +1,2 @@
 boa
+//npm i react-native-iphone-x-helper --save

@@ -4,7 +4,7 @@ import { theme } from '../global/styles/theme';
 export const styles = StyleSheet.create({
     container: {
         flex:1,
-        backgroundColor: theme.colors.backgorung,                                                                                                                                                                               
+        //backgroundColor: theme.colors.backgorung,                                                                                                                                                                               
         justifyContent: 'center',
         alignItems: 'center',
         //backgroundColor: theme.colors.backgorung
